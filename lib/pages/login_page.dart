@@ -57,7 +57,6 @@ class _LoginPageState extends State<LoginPage>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // Logo Container with glow effect
                     Container(
                       padding: const EdgeInsets.all(20),
                       decoration: BoxDecoration(
@@ -79,7 +78,6 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     const SizedBox(height: 30),
 
-                    // Welcome Text
                     const Text(
                       "Selamat Datang",
                       style: TextStyle(
@@ -99,7 +97,6 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     const SizedBox(height: 40),
 
-                    // Login Card with glassmorphism
                     Container(
                       padding: const EdgeInsets.all(24),
                       decoration: BoxDecoration(
@@ -119,7 +116,6 @@ class _LoginPageState extends State<LoginPage>
                       ),
                       child: Column(
                         children: [
-                          // Email Field
                           _buildTextField(
                             controller: emailController,
                             label: "Email",
@@ -128,7 +124,6 @@ class _LoginPageState extends State<LoginPage>
                           ),
                           const SizedBox(height: 20),
 
-                          // Password Field
                           _buildTextField(
                             controller: passwordController,
                             label: "Password",
@@ -150,7 +145,6 @@ class _LoginPageState extends State<LoginPage>
                           ),
                           const SizedBox(height: 12),
 
-                          // Forgot Password
                           Align(
                             alignment: Alignment.centerRight,
                             child: TextButton(
@@ -166,7 +160,6 @@ class _LoginPageState extends State<LoginPage>
                           ),
                           const SizedBox(height: 20),
 
-                          // Login Button
                           SizedBox(
                             width: double.infinity,
                             height: 56,
@@ -203,7 +196,6 @@ class _LoginPageState extends State<LoginPage>
                     ),
                     const SizedBox(height: 30),
 
-                    // Sign Up Text
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
