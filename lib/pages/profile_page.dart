@@ -28,7 +28,7 @@ class ProfilePage extends StatelessWidget {
               padding: const EdgeInsets.all(24.0),
               child: Column(
                 children: [
-                  // Avatar dengan efek shadow
+                  // ini buat avatar shadow
                   Container(
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
@@ -47,7 +47,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                   const SizedBox(height: 25),
 
-                  // Card berisi informasi profil
                   Card(
                     elevation: 10,
                     shape: RoundedRectangleBorder(
@@ -103,7 +102,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                   const SizedBox(height: 30),
 
-                  // Tombol kembali dengan gaya modern
                   ElevatedButton.icon(
                     onPressed: () {
                       Navigator.pop(context);
