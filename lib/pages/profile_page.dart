@@ -28,7 +28,7 @@ class ProfilePage extends StatelessWidget {
               padding: const EdgeInsets.all(24.0),
               child: Column(
                 children: [
-                  // ini buat avatar shadow
+                  // ini buat untuk avatar shadow
                   Container(
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
